@@ -1,94 +1,261 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Início</title> 
-    <link rel="stylesheet" href="../static/style.css">
-    <link rel="icon" type='image/png' href="../static/img/codigo.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Início</title>
+    <link rel="stylesheet" href="../static/style.css" />
+    <link rel="icon" type="image/png" href="../static/img/codigo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <i class="bi bi-list menu-mobile"></i>
 
-        <i class="bi bi-list menu-mobile"></i>
+    <aside id="header">
+      <section class="perfil">
+        <img src="../static/img/perfil2.jpeg" alt="foto_perfil" />
+        <h1>Vinicius Souza</h1>
+        <div class="social-links mt-4">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/vinicius-s%C3%A1-4a5578237/"
+          >
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a target="_blank" href="https://github.com/viniciussouza429">
+            <i class="bi bi-github"></i>
+          </a>
+        </div>
+      </section>
 
-   
-  <aside id='header'>
-        <section class="perfil">
-            <img src="../static/img/perfil2.jpeg" alt="foto_perfil">
-            <h1>Vinicius Souza</h1>
-            <div class="social-links mt-4">
-                <a target="_blank" href="https://www.linkedin.com/in/vinicius-s%C3%A1-4a5578237/">
-                    <i class="bi bi-linkedin"></i>
-                </a>
-                <a target="_blank" href="https://github.com/viniciussouza429">
-                    <i class="bi bi-github"></i>
-                </a>
+      <section>
+        <nav id="navbar" class="nav-menu">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#inicio"
+                ><i class="bi bi-house"></i>Página inicial</a
+              >
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#sobre"
+                  ><i class="bi bi-person-circle"></i>Sobre</a
+                >
+              </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#habilidades"
+                ><i class="bi bi-file-code-fill"></i>Habilidades</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#portifolio"
+                ><i class="bi bi-box2"></i>Portifólio</a
+              >
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contato"
+                ><i class="bi bi-envelope"></i>Contato</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </aside>
+
+    <main id="main">
+      <section id="inicio" class="row m-0 p-0">
+        <div
+          class="col-md-5 d-flex justify-content-center align-items-center flex-column"
+        >
+          <h2 class="text-white text-shadow">Vinicius Souza</h2>
+          <span id="subtitle" class="text-white text-shadow"
+            >Técnico em Informática para Internet</span
+          >
+        </div>
+
+        <div class="col-md-7 d-flex justify-content-end align-items-end">
+          <div id="arraste" class="d-flex align-items-center">
+            <i
+              class="bi bi-arrow-down text-white pe-2 fs-2"
+              aria-hidden="true"
+            ></i>
+            <a href="#sobre">Arraste para mais</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="container mt-5" id="sobre">
+        <div class="row widht-100">
+          <div class="col-md-12">
+            <h2 class="pt-3">Sobre</h2>
+            <p>
+              Técnico em Informática para Internet busco trazer soluções
+              inteligentes com o objetivo de trazer a melhor experiência
+              possível para os úsuarios de meus produtos e projetos, para assim
+              passar confiança e conquistar clientes de forma a faze-lo
+              considerar voltar aos meus serviços.
+              Tenho habilidades no quesito comunicação e trabalho em grupo, que mesmo não tendo carácteristicas de liderança, estou sempre tentando fazer com que o grupo caminhe junto, não deixando integrantes para trás, pois mesmo que a divisão de tarefas seja importante, a conclusão com cada parte individualmente boa é mais relevante, então auxiliar integrantes é de suma importância.
+            </p>
+          </div>
+
+          <div class="row mt-4">
+            <div class="col-md-4">
+              <img
+                class="img-fluid shadow"
+                src="../static/img/perfil2.jpeg"
+                alt="foto_perfil"
+              />
             </div>
-        </section>
 
-        <section>
+            <div class="col-md-8">
+              <h3>Técnico em Informática para Internet</h3>
+              <p>
+                Atualmente sou estudando de Sistemas para Internet na
+                universidade Estácio de Sá, no módulo EAD. Tenho meu principal
+                objetivo de ser desenvolvedor front-end.
+              </p>
 
-            <nav id="navbar" class="nav-menu">
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-group list-group-flush fs-5">
 
-              <ul class="nav flex-column">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house"></i>Página inicial</a>
-                </li>
+                            <li class="list-group-item">
+                               Nascimento: <span class="fw-lighter">10 de Setembro de 2004</span>
+                            </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="bi bi-file-code-fill"></i>Habilidades</a>
+                            <li class="list-group-item">
+                                Idade: <span class="fw-lighter">18 anos</span>
+                             </li>
 
-                </li>
+                            <li class="list-group-item">
+                                Cidade: <span class="fw-lighter">Fernandópolis</span>
+                             </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="bi bi-box2"></i>Portifólio</a>
-                </li>
+                             <li class="list-group-item">
+                                Estado: <span class="fw-lighter">São Paulo</span>
+                             </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="bi bi-person-circle"></i>Sobre</a>
-                </li>
+                             <li class="list-group-item">
+                                Fone: <span class="fw-lighter">(17) 997176625</span>
+                             </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="bi bi-envelope"></i>Contato</a>
-                </li>
-              </ul>
-              </nav>
+                        </ul>
+                    </div>
 
-        </section>
+                     <div class="col-md-6">
+                            <p>
+                                Além do meu objetivo de ser desenvolvedor back-end e estudar linguagens e me aperfeiçoar, em meu tempo livre gosto de desenvolver projetos visando melhorar meu front-end e estudar metodologias, como por exemplo o Scrumm, no momento.
+                            </p>
+                     </div>        
 
-  </aside>
+                    </div>
+                </div>
 
 
 
-  <main id="main">
-
-    <section id="inicio" class="row m-0 p-0">
-        <div class="col-md-5 d-flex justify-content-center align-items-center flex-column">
-            <h2 class="text-white text-shadow">Vinicius Souza</h2>
-            <span id="subtitle" class="text-white text-shadow">Técnico em Informática para Internet</span>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <div class="col-md-7  d-flex justify-content-end align-items-end">
-            <div id="arraste" class="d-flex align-items-center">
-            <i class="bi bi-arrow-down text-white pe-2 fs-2" aria-hidden="true"></i>
-            <a href="">Arraste para mais</a>
-        </div>
-        </div>
-
-    </section>
-
-  </main>
+      <section class="mt-5 section-bg" id="habilidades">
 
 
+            <div class="container pb-5">
+                <h2 class="pt-5">Habilidades</h2>
+                <p>Como estudante de Informática para Internet, foi possibilitado para mim adquirir alguns conhecimentos em diferentes áreas da tecnologia, me faltando a experiência no mercado de trabalho para aperfeiçoá-las e adicionar mais habilidades, sendo meu nível de conhecimento nessas habilidades:</p>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="progress mt-2 bg-dark" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 50%">HTML</div>
+                          </div>
+                          <div class="progress mt-2 bg-dark" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 50%">CSS</div>
+                          </div>
+                          <div class="progress mt-2 bg-dark" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 50%">BOOTSTRAP</div>
+                          </div>   
+                    </div>
 
 
+                    <div class="col-md-6">
+                        <div class="progress mt-2 bg-dark" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 50%">PostgreSQL</div>
+                          </div>
+                          <div class="progress mt-2 bg-dark" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 50%">Java</div>
+                          </div>
+                          <div class="progress mt-2 bg-dark" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 50%">UML</div>
+                          </div>
+                    </div>
+                </div>
+
+                <hr class="w-50 me-auto ms-auto">
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="progress mt-4 bg-dark" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 80%">Trabalho em equipe</div>
+                          </div>
+                          <div class="progress mt-2 bg-dark" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 70%">Proatividade</div>
+                          </div>
+                          <div class="progress mt-2 bg-dark" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 50%">experiência</div>
+                          </div>   
+                    </div>
+                    <div class="col-md-6">
+                        <div class="progress mt-4 bg-dark" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 85%">Comunicação</div>
+                          </div>
+                          <div class="progress mt-2 bg-dark" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 90%">Comprometimento</div>
+                          </div>
+                          <div class="progress mt-2 bg-dark" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 80%">Paciência</div>
+                          </div>   
+                    </div>
+                </div>
+            </div>
+      </section>
+
+      <section class="">
+
+      </section>
+
+    </main>
 
     <script src="../static/script.js"></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
