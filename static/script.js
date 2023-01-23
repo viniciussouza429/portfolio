@@ -24,3 +24,43 @@ navItem.forEach(item => {
             }  
     })
 })
+
+
+//animar itens com data-anime
+
+const item = document.querySelectorAll("[data-anime]");
+
+const animeScroll = () => {
+    const windowTop = window.pageYOffset + window.innerHeight * 0.55;
+
+    item.forEach((element) => {
+        if (windowTop > element.offsetTop) {
+            element.classList.add("animate");
+        } else {
+            element.classList.remove("animate");
+        }
+    });
+};
+
+animeScroll();
+
+window.addEventListener("scroll", ()=> {
+    animeScroll();
+})
+
+
+//ativar botao enviar
+
+const btnEnviar = document.querySelector('#btn-enviar')
+
+btnEnviar.addEventListener("click", ()=> {
+        btnEnviarLoader.style.display = "block";
+        btnEnviar.style.display = "none"
+})
+
+
+// tirar a msg dps de 5 sec
+
+setTimeout(()=> {
+    document.querySelector('#alerta').style.display = 'none';
+}, 5000)
